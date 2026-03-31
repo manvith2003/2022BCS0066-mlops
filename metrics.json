@@ -1,0 +1,31 @@
+{
+    "Student Name": "Manvith M",
+    "Roll No": "2022BCS0066",
+    "Results": [
+        {
+            "run_name": "Run 1 - Base RF v1",
+            "accuracy": 0.8888888888888888,
+            "f1_score": 0.8861111111111111
+        },
+        {
+            "run_name": "Run 2 - Tuned RF v1",
+            "accuracy": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "run_name": "Run 3 - Base RF v2",
+            "accuracy": 0.9444444444444444,
+            "f1_score": 0.9439974457215836
+        },
+        {
+            "run_name": "Run 4 - Base RF v2 Reduced Features",
+            "accuracy": 0.9722222222222222,
+            "f1_score": 0.9725248123940935
+        },
+        {
+            "run_name": "Run 5 - Logistic Regression v2 Reduced",
+            "accuracy": 0.8611111111111112,
+            "f1_score": 0.8641975308641974
+        }
+    ]
+}
