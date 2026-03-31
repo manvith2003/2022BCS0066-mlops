@@ -88,35 +88,35 @@ if __name__ == "__main__":
             "run_name": "Run 1 - Base RF v1",
             "dataset_path": "data/v1/wine.csv",
             "model_type": "RandomForest",
-            "params": {"n_estimators": 10},
+            "params": {"n_estimators": 1},
             "reduce_features": False
         },
         {
             "run_name": "Run 2 - Tuned RF v1",
             "dataset_path": "data/v1/wine.csv",
             "model_type": "RandomForest",
-            "params": {"n_estimators": 50, "max_depth": 5},
+            "params": {"n_estimators": 2, "max_depth": 3},
             "reduce_features": False
         },
         {
             "run_name": "Run 3 - Base RF v2",
             "dataset_path": "data/v2/wine.csv",
             "model_type": "RandomForest",
-            "params": {"n_estimators": 10},
+            "params": {"n_estimators": 1},
             "reduce_features": False
         },
         {
             "run_name": "Run 4 - Base RF v2 Reduced Features",
             "dataset_path": "data/v2/wine.csv",
             "model_type": "RandomForest",
-            "params": {"n_estimators": 10},
+            "params": {"n_estimators": 1},
             "reduce_features": True
         },
         {
             "run_name": "Run 5 - Logistic Regression v2 Reduced",
             "dataset_path": "data/v2/wine.csv",
             "model_type": "LogisticRegression",
-            "params": {"max_iter": 1000},
+            "params": {"max_iter": 10},
             "reduce_features": True
         }
     ]
